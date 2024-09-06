@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+body {
+    background-color: #4B52A4;
+
+}
+
+span {
+    font-family: "Krona One", sans-serif;
+    font-size: 10px;
+    color: #ffffff;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    font-style: medium italic;
+    color: #000000;
+
+}
+
+header img {
+    width: 10%;
+    background-color: #D9D9D9;
+}
+
+main {
+    text-align: center;
+}
+
+.Carrusel {
+    width: 100%;
+    margin: auto
+}
+
+nav {
+    text-align: center;
+}
+
+nav a:link,
+nav a:visited {
+    background-color: #B2B2B2;
+    font-family: Inter, sans-serif;
+    text-decoration: none;
+    border: 10px;
+    padding: 10px;
+}
