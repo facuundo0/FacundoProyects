@@ -9,7 +9,7 @@ body {
 
 span {
     font-family: "Krona One", sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     color: #ffffff;
 }
 
@@ -20,11 +20,11 @@ form {
     font-family: "Inter", sans-serif;
     position: absolute;
     bottom: 88%;
-    left: 27%;
+    left: 25%;
 }
 
 input {
-    width: 800px;
+    width: 700px;
     padding: 6px;
     padding-left: 40px;
     border-radius: 10px;
@@ -46,6 +46,12 @@ button {
     cursor: pointer;
 }
 
+h1 {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-family: medium bold;
+}
+
 h2 {
     font-size: 24px;
     font-style: medium italic;
@@ -58,6 +64,28 @@ h3 {
     font-style: light;
 }
 
+h4 {
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-style: light;
+}
+
+h5 {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    font-weight: 150px;
+    line-height: 250%;
+}
+
+h6 {
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    font-weight: 5px;
+    line-height: 180%;
+}
+
 footer {
     background-color: #D9D9D9;
     padding: 10px;
@@ -68,6 +96,7 @@ header img {
     width: 8%;
     background-color: #D9D9D9;
     border-radius: 0px 10px 10px 0px;
+    padding: -5px;
 }
 
 main {
@@ -82,21 +111,22 @@ main {
 
 nav {
     position: absolute;
-    top: 21.5%;
-    left: 11.5%;
+    top: 23.5%;
+    left: 18.4%;
 }
 
 nav a:link,
 nav a:visited {
     background-color: #b2b2b2;
     font-family: Inter, sans-serif;
+    color: #000000;
     text-decoration: none;
     border: 10px;
-    padding: 10px 238px;
+    padding: 10px 132.5px;
 }
 
 .Carrusel {
-    width: 1280px;
+    width: 854px;
     height: auto;
     margin: 50px auto 0;
     overflow: hidden;
@@ -154,4 +184,37 @@ nav a:visited {
     }
 
 
+}
+
+.Btn2 {
+    background-color: #323131 !important;
+    color: white !important;
+}
+
+.Auto1 img {
+    width: 300px;
+    position: absolute;
+    left: 9%;
+    border-radius: 10px;
+}
+
+section {
+    background-color: #b2b2b2;
+    width: 20%;
+    height: 26%;
+    border-radius: 10px;
+    position: absolute;
+    right: 49%;
+    line-height: 150%;
+    text-align: left;
+    text-indent: 10px;
+}
+
+section2 {
+    background-color: #b2b2b2;
+    width: 8%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 16%
 }
