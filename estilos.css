@@ -198,16 +198,15 @@ nav a:visited {
     border-radius: 10px;
 }
 
-section {
+.ModelosAutos {
     background-color: #b2b2b2;
     width: 20%;
     height: 26%;
+    justify-content: center;
     border-radius: 10px;
-    position: absolute;
-    right: 49%;
     line-height: 150%;
-    text-align: left;
     text-indent: 10px;
+
 }
 
 section2 {
