@@ -60,7 +60,7 @@ function Autos() {
             problemas += `<li> ${problema}</li>`
         })
 
-        contenido += `<div><div class="Auto1"> <img class="Auto1" src="${Auto.Imagen}"> </div> <div class="ModelosAutos"> <h1>${Auto.Modelo} ${Auto.Año}</h1> <h1>Problemas comunes</h1><ul>${problemas} </ul> </div></div>`;
+        contenido += `<div><div class="Auto1"> <img class="Auto1" src="${Auto.Imagen}"> </div> <div class="ModelosAutos"> <h2>${Auto.Modelo} ${Auto.Año}</h2> <h2>Problemas comunes</h2><ul>${problemas} </ul> </div></div>`;
         problemas = ``;
     });
 

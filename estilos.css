@@ -193,20 +193,25 @@ nav a:visited {
 
 .Auto1 img {
     width: 300px;
-    position: absolute;
     left: 9%;
     border-radius: 10px;
 }
 
 .ModelosAutos {
     background-color: #b2b2b2;
-    width: 20%;
-    height: 26%;
     justify-content: center;
     border-radius: 10px;
     line-height: 150%;
     text-indent: 10px;
 
+}
+
+#listaAutos {
+    width: 92%;
+    float: right;
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
 }
 
 section2 {
