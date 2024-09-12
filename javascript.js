@@ -57,10 +57,10 @@ function Autos() {
     let problemas = ``;
     AutosConProblemas.forEach((Auto) => {
         Auto.Problemas.forEach((problema) => {
-            problemas += `<li> ${problema}</li>`
+            problemas += `<p> ${problema}</p>`
         })
 
-        contenido += `<div><div class="Auto1"> <img class="Auto1" src="${Auto.Imagen}"> </div> <div class="ModelosAutos"> <h2>${Auto.Modelo} ${Auto.Año}</h2> <h2>Problemas comunes</h2><ul>${problemas} </ul> </div></div>`;
+        contenido += `<div><div class="Auto1"> <img class="Auto1" src="${Auto.Imagen}"> </div> <div class="ModelosAutos"> <h2>${Auto.Modelo} ${Auto.Año}</h2> <h2>Problemas comunes</h2>${problemas}  </div></div>`;
         problemas = ``;
     });
 
