@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300&display=swap');
+
+h2 {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+
+h3 {
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 0.8;
+    text-indent: 10px;
+    text-decoration: none;
+    text-align: left;
+}
+
+h4 {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 1.5;
+    text-indent: 10px;
+    text-decoration: none;
+}
+
+h5 {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-style: light;
+}
+
+.TEXT {
+    border-bottom: #000000;
+}
+
+body {
+    background-color: #4B52A4;
+
+}
+
+form {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    position: absolute;
+    top: 10%;
+    left: 38%;
+}
+
+input {
+    width: 700px;
+    padding: 6px;
+    padding-left: 40px;
+    border-radius: 10px;
+    border: 15;
+    outline: none;
+}
+
+.Lupa {
+    background-color: white;
+    width: 30px;
+    height: 25px;
+    padding: 0px;
+    border: 0;
+    border-radius: 5px;
+    position: absolute;
+    left: 0.5%;
+    bottom: 8%;
+    margin: auto;
+    cursor: pointer;
+}
+
+#filtroMarcas a {
+    display: block;
+    padding: 13px;
+    background-color: #b2b2b2;
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-family: "Inter", sans-serif;
+    border-radius: 5px;
+    text-align: left !important;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 0.8;
+    position: relative;
+    right: 20%;
+}
+
+
+#filtroMarcas a:hover {
+    background-color: #323131;
+    color: #000000;
+}
+
+#resetFiltro {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #b2b2b2;
+    color: rgb(0, 0, 0);
+    border: 1;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#resetFiltro:hover {
+    background-color: #8c8c8c;
+}
+
+footer {
+    background-color: #D9D9D9;
+    text-align: center;
+}
+
+header img {
+    width: 19%;
+    background-color: #D9D9D9;
+    border-radius: 0px 10px 10px 0px;
+    padding: -5px;
+}
+
+
+.Auto1 img {
+    width: 355px;
+    height: auto;
+    border-radius: 10px;
+    float: left;
+}
+
+.ModelosAutos {
+    background-color: #b2b2b2;
+    width: 46%;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    text-align: left;
+    border-radius: 10px;
+    line-height: 1;
+    float: left;
+    text-decoration: none;
+
+}
+
+.ModelosAutos a {
+    text-decoration: none;
+    font-style: italic;
+    color: #000000;
+}
+
+.ModelosAutos a:hover {
+    color: #323131;
+    text-decoration: underline;
+}
+
+#listaAutos {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.logo {
+    grid-area: logo;
+    height: 100%;
+}
+
+.buscador {
+    grid-area: buscador;
+}
+
+.menu {
+    grid-area: menu;
+    background-color: #b2b2b2;
+    width: 80%;
+}
+
+.main {
+    grid-area: main;
+
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'logo logo logo logo logo logo buscador buscador buscador buscador'
+        'menu main main main main main main main main main'
+        'footer footer footer footer footer footer footer footer footer footer';
+    gap: 10px;
+    padding: 10px;
+}

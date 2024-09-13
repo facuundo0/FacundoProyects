@@ -20,7 +20,7 @@ form {
     font-family: "Inter", sans-serif;
     position: absolute;
     bottom: 88%;
-    left: 25%;
+    left: 28%;
 }
 
 input {
@@ -46,44 +46,10 @@ button {
     cursor: pointer;
 }
 
-h1 {
-    font-size: 16px;
-    font-family: "Inter", sans-serif;
-    font-family: medium bold;
-}
-
-h2 {
-    font-size: 24px;
-    font-style: medium italic;
-    color: #000000;
-}
-
 h3 {
     font-size: 16px;
     font-family: "Inter", sans-serif;
     font-style: light;
-}
-
-h4 {
-    font-size: 14px;
-    font-family: "Inter", sans-serif;
-    font-style: light;
-}
-
-h5 {
-    font-size: 16px;
-    font-family: "Inter", sans-serif;
-    font-style: italic;
-    font-weight: 150px;
-    line-height: 250%;
-}
-
-h6 {
-    font-size: 13px;
-    font-family: "Inter", sans-serif;
-    font-style: italic;
-    font-weight: 5px;
-    line-height: 180%;
 }
 
 footer {
@@ -112,8 +78,8 @@ main {
 
 nav {
     position: absolute;
-    top: 23.5%;
-    left: 18.4%;
+    top: 21.5%;
+    left: 24.3%;
 }
 
 nav a:link,
@@ -190,60 +156,4 @@ nav a:visited {
 .Btn2 {
     background-color: #323131 !important;
     color: white !important;
-}
-
-.Auto1 img {
-    width: 225px;
-    border-radius: 10px;
-    float: left;
-}
-
-.ModelosAutos {
-    background-color: #b2b2b2;
-    border-radius: 10px;
-    line-height: 150%;
-    text-indent: 10px;
-    float: right;
-
-}
-
-#listaAutos {
-    display: grid;
-    margin: 0 auto;
-    grid-template-columns: auto auto;
-    gap: 10px;
-    text-align: center;
-}
-
-.logo {
-    grid-area: logo;
-    height: 100%;
-}
-
-.buscador {
-    grid-area: buscador;
-}
-
-.menu {
-    grid-area: menu;
-    background-color: #b2b2b2;
-}
-
-.main {
-    grid-area: main !important;
-
-}
-
-.footer {
-    grid-area: footer;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-areas:
-        'logo logo logo logo logo logo buscador buscador buscador buscador'
-        'menu main main main main main main main main main'
-        'footer footer footer footer footer footer footer footer footer footer';
-    gap: 10px;
-    padding: 10px;
 }
