@@ -234,7 +234,7 @@ const AutosConProblemas = [
             { "texto": "Problemas con el arranque", "enlace": "https://www.opinautos.com/ar/volkswagen/golf/defectos/arranque" },
             { "texto": "Problemas con los fusibles", "enlace": "https://www.opinautos.com/ar/volkswagen/golf/defectos/fusibles" },
             { "texto": "Problemas con la pérdida de potencia", "enlace": "https://www.opinautos.com/ar/volkswagen/golf/defectos/pierde-fuerza" },
-            { "texto": "Problemas con los jalones/tirones", "enlace": "https://www.opinautos.com/ar/volkswagen/golf/defectos/tirones" },
+            { "texto": "Problemas con los jalones/tirones", "enlace": "https://www.opinautos.com/ar/volkswagen/golf/defectos/tironeos" },
             { "texto": "Problemas con la puerta", "enlace": "https://www.opinautos.com/ar/volkswagen/golf/defectos/puerta" }
         ]
     },
@@ -246,7 +246,7 @@ const AutosConProblemas = [
             { "texto": "Problemas con el arranque", "enlace": "https://www.opinautos.com/ar/renault/clio/defectos/arranque" },
             { "texto": "Problemas con los fusibles", "enlace": "https://www.opinautos.com/ar/renault/clio/defectos/fusibles" },
             { "texto": "Problemas con la pérdida de potencia", "enlace": "https://www.opinautos.com/ar/renault/clio/defectos/pierde-fuerza" },
-            { "texto": "Problemas con los jalones/tirones", "enlace": "https://www.opinautos.com/ar/renault/clio/defectos/tirones" },
+            { "texto": "Problemas con los jalones/tirones", "enlace": "https://www.opinautos.com/renault/clio/defectos/tironeos" },
             { "texto": "Problemas con los inyectores", "enlace": "https://www.opinautos.com/ar/renault/clio/defectos/inyectores" }
         ]
     },
